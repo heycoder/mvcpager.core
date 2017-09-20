@@ -1,0 +1,10 @@
+﻿@using HeyCoder.AspNetCore.Mvc.Pager
+@using HeyCoder.AspNetCore.Mvc.Pager.Interface
+@{
+    ViewData["Title"] = "BootStrap Theme";
+    IPagerOption pagerOption = ViewBag.PagerOption;
+}
+<link href="//cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" />
+<link href="//cdn.ken.io/plugin/mvcpager/theme/bootstrap-1.0.css" rel="stylesheet" />
+<h2>Theme：BootStrap</h2>
+@Html.Pager(pagerOption)
