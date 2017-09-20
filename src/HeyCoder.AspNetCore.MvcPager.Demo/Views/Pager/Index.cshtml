@@ -1,0 +1,12 @@
+﻿@using HeyCoder.AspNetCore.Mvc.Pager
+@using HeyCoder.AspNetCore.Mvc.Pager.Interface
+
+@{
+    ViewData["Title"] = "Default Theme";
+    IPagerOption pagerOption = ViewBag.PagerOption;
+}
+<link href="//cdn.ken.io/plugin/mvcpager/theme/default-1.0.css" rel="stylesheet"/>
+<h2>Theme：Default</h2>
+
+@Html.Pager(pagerOption)
+
