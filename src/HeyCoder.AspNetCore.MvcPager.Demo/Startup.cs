@@ -31,6 +31,12 @@ namespace HeyCoder.AspNetCore.MvcPager.Demo
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Pager}/{action=Index}");
+
+                routes.MapRoute(name: "tag",
+                    template: "tag/{tag}/{pageindex}",
+                    defaults: new { controller = "Pager", action = "Index" }
+                );
+
             });
         }
     }
