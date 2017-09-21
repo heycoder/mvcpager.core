@@ -53,3 +53,10 @@ MvcPager for ASP.NET Core Mvc 2.0+
 
 @Html.Pager(new {p = Guid.NewGuid().ToString()}, new PagerOption(){ PageIndex = Model.PageIndex })
 ```
+
+## 项目成员（Members）
+
+#### ken
+
+- 邮箱（Email）：m#ken.io
+- 博客（Blog）：https://ken.io
