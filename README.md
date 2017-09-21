@@ -4,7 +4,8 @@ MvcPager for ASP.NET Core Mvc 2.0+
 ## 安装（Install）
 
 1. nuget：Install-Package HeyCoder.AspNetCore.MvcPager
-2. https://www.nuget.org/packages/HeyCoder.AspNetCore.MvcPager
+2. dotnet add package HeyCoder.AspNetCore.MvcPager
+3. https://www.nuget.org/packages/HeyCoder.AspNetCore.MvcPager
 
 ## 配置（Config）
 ```json
