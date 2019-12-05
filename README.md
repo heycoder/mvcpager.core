@@ -1,5 +1,5 @@
 ## 介绍（Description）
-MvcPager for ASP.NET Core Mvc 2.0+
+MvcPager for ASP.NET Core Mvc 2.X & 3.X
 
 ## 安装（Install）
 
