@@ -1,10 +1,10 @@
-{
+﻿{
   "iisSettings": {
-    "windowsAuthentication": false,
-    "anonymousAuthentication": true,
+    "windowsAuthentication": false, 
+    "anonymousAuthentication": true, 
     "iisExpress": {
-      "applicationUrl": "http://localhost:5020/",
-      "sslPort": 0
+      "applicationUrl": "http://localhost:5031",
+      "sslPort": 44301
     }
   },
   "profiles": {
@@ -15,13 +15,13 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "HeyCoder.AspNetCore.MvcPager.Demo": {
+    "HeyCoder.AspNetCore.MvcPager.Demo.NET31": {
       "commandName": "Project",
       "launchBrowser": true,
+      "applicationUrl": "https://localhost:5031",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      },
-      "applicationUrl": "http://localhost:5020/"
+      }
     }
   }
 }

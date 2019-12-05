@@ -81,7 +81,7 @@ namespace HeyCoder.AspNetCore.Mvc.Pager
             //初始化
             var routeData = html.ViewContext.RouteData;
             if (routeData == null) return HtmlString.Empty;
-            var url = new UrlHelper(new ActionContext(html.ViewContext.HttpContext,routeData,html.ViewContext.ActionDescriptor));
+            var url = new UrlHelperFactory().GetUrlHelper(new ActionContext(html.ViewContext.HttpContext, routeData, html.ViewContext.ActionDescriptor));
             if (routeValues == null) routeValues = new RouteValueDictionary();
             //计算分页信息
             var pageCount = option.DataCount / option.PageSize;
