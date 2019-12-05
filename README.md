@@ -8,6 +8,18 @@ MvcPager for ASP.NET Core Mvc 2.0+
 3. https://www.nuget.org/packages/HeyCoder.AspNetCore.MvcPager
 
 ## 配置（Config）
+
+- Startup.cs
+
+```csharp
+public void ConfigureServices(IServiceCollection services)
+{
+    services.AddTransient<IPagerOption, PagerOption>();
+}
+```
+
+- appsettings.json
+
 ```json
 {
   "HeyCoder.MvcPager": {
